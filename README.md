@@ -131,12 +131,6 @@ Key Observations:
 - The code is well-structured and uses event listeners for various user interactions.
 - There's a focus on responsive design, with different configurations for various screen sizes.
 
-Potential Improvements:
-1. Consider using `const` for variables that aren't reassigned (most of them in this file).
-2. The `window.onscroll` function could potentially be more efficient using a debounce function to limit how often it's called.
-3. The video control functionality could potentially be simplified using event delegation.
-4. Consider adding error handling, especially for the video source switching.
-
  ##  Summary of how the HTML, CSS, and JavaScript files work together to create a cohesive travel website
 
 1. Structure (HTML):
